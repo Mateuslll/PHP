@@ -12,6 +12,15 @@ for($i = 0; $i < 210; $i++){
   }
 }
  
+//outro jeito muito mais facil
+//inicializa um contador, while percore 20 vezes
+//cont = 1 , cai no ecco funcao repetir string vai repetir 1 vez e apertar TAB
+ $cont =0;
+ while ($cont < 20){
+    $cont ++;
+    echo str_repeat("-",$cont);
+    echo "</br>";    
+ }
 
 
 
