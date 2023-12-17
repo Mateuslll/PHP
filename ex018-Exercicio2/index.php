@@ -33,6 +33,15 @@ for($i = 0; $i < 210; $i++){
 
 
 */
+"</br>";
+"</br>";
+for ($j = 0; $i < 20; $i++) {
+    echo "</br>"; // Substitui System.out.println() com o equivalente em PHP
+    for ($j = 0; $j <= $i; $j++) {
+      echo "8"; // Substitui System.out.printf("8") com o equivalente em PHP, sem formatação
+    }
+  }
+
 ?>
 
 
