@@ -41,6 +41,14 @@ for ($j = 0; $i < 20; $i++) {
       echo "8"; // Substitui System.out.printf("8") com o equivalente em PHP, sem formatação
     }
   }
+$contador = 20;
+while ($contador > 0){
+    $contador--;
+    echo str_repeat("7", $contador);
+    echo "</br>";
+}
+
+
 
 ?>
 
